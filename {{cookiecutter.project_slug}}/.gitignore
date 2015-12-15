@@ -1,0 +1,11 @@
+# Bytecode caches
+*.pyc
+
+# Tox
+.tox
+
+# Sphinx
+docs/_build/
+
+# Recommended virtualenv directory name
+venv

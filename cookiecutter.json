@@ -1,0 +1,14 @@
+{
+    "project_name": "Cookiecutter Template",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ',  '_') }}",
+    "author": "Daniel Neuhäuser",
+    "author_email": "ich@danielneuhaeuser.de",
+    "maintainer": "{{ cookiecutter.author }}",
+    "maintainer_email": "{{ cookiecutter.author_email }}",
+    "github_username": "DasIch",
+    "github_reponame": "{{ cookiecutter.project_slug }}",
+    "github_repo": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_reponame }}",
+    "version": "1.0.0",
+    "description": "A cookiecutter template for Python projects.",
+    "year": 2015
+}

@@ -1,0 +1,7 @@
+include .editorconfig tox.ini dev-requirements.txt
+include *.rst
+
+recursive-include tests *.py
+
+graft docs
+prune docs/_build
